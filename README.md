@@ -1,6 +1,6 @@
 # Eikes Scaffolding Templates
 
-An opionionated set rails scaffolding templates
+An opionionated set of rails scaffolding templates
 
 ## Usage
 
