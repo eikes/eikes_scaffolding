@@ -6,7 +6,10 @@ Gem::Specification.new do |s|
   s.description = ''
   s.authors     = ['Eike Send']
   s.email       = 'scaffolding@eike.se'
-  s.files       = ['Rakefile', 'lib/tasks/copy_templates.rake']
+  s.files       = [
+                    'lib/eikes_scaffolding.rb',
+                    'lib/eikes_scaffolding/railtie.rb'
+                  ]
   s.homepage    = 'http://github.com/eikes/eikes_scaffolding'
   s.license     = 'MIT'
 end
