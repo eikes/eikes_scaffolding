@@ -36,6 +36,8 @@ Configure app/assets/stylesheets/bootstrap_and_overrides.css to use font-awesome
     // Font Awesome
     @import "fontawesome/font-awesome";
 
+Be sure to remove any styles the ```app/assets/stylesheets/scaffolds.scss``` file so it doesn't mess up your layout.
+
 This gem creates a rake task which copies eikes scaffolding templates to /lib/templates
 
     rake eikes:templates:copy
