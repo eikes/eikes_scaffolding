@@ -18,6 +18,12 @@ The expected gems are not marked as dependencies of this gem, so you need to add
 
     gem 'eikes_scaffolding'
 
+Run the necessary installation steps
+
+    rails generate bootstrap:install
+    rails generate bootstrap:layout
+    rails generate simple_form:install --bootstrap
+
 Configure app/assets/stylesheets/bootstrap_and_overrides.css to use font-awesome:
 
     // Set the Font Awesome (Font Awesome is default. You can disable by commenting below lines)
@@ -35,3 +41,7 @@ This gem creates a rake task which copies eikes scaffolding templates to /lib/te
     rake eikes:templates:copy
 
 Once this has happened you can remove this gem from your Gemfile again.
+
+Now you are ready to scaffold beautiful resources and have nice tests that go with them:
+
+    rails generate scaffold post title:string body:text
