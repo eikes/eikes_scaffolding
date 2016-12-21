@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   s.name        = 'eikes_scaffolding'
   s.version     = '0.0.2'
   s.date        = '2016-12-21'
-  s.summary     = 'An opionionated set of rails scaffolding templates'
+  s.summary     = 'An opinionated set of rails scaffolding templates'
   s.description = ''
   s.authors     = ['Eike Send']
   s.email       = 'scaffolding@eike.se'
