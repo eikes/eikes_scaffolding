@@ -16,6 +16,8 @@ The expected gems are not marked as dependencies of this gem, so you need to add
       gem 'fabrication'
     end
 
+    gem 'eikes_scaffolding'
+
 Configure app/assets/stylesheets/bootstrap_and_overrides.css to use font-awesome:
 
     // Set the Font Awesome (Font Awesome is default. You can disable by commenting below lines)
@@ -32,4 +34,4 @@ This gem creates a rake task which copies eikes scaffolding templates to /lib/te
 
     rake eikes:templates:copy
 
-Once this has happened you can remove this gem again.
+Once this has happened you can remove this gem from your Gemfile again.
