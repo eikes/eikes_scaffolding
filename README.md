@@ -23,6 +23,7 @@ Run the necessary installation steps
     rails generate bootstrap:install
     rails generate bootstrap:layout
     rails generate simple_form:install --bootstrap
+    rails generate rspec:install
 
 Configure app/assets/stylesheets/bootstrap_and_overrides.css to use font-awesome:
 
